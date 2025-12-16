@@ -38,8 +38,8 @@ jobs:
       - uses: 2i2c-org/clinder@HEAD
         with:
           hub-url: https://binder.projectpythia.org/
-          repo: ProjectPythia/ERA5_interactive-cookbook
-          ref: HEAD
+          repo: ProjectPythia/wavelet-cookbook
+          ref: 500a27237396a64ffb9841fa76f98d0aa372d8dd
       - name: Install MyST
         run: npm install -g mystmd
       - name: Build HTML Assets
